@@ -1,0 +1,300 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #304a3d;
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #588157;
+    height: 53px;
+}
+
+nav .span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20%;
+    background: blue;
+    border-radius: 8px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: black;
+}
+
+main hr {
+    border: 0;
+    background: #a3b18a;
+    height: 1.2px;
+    margin: 40px 84px;
+}
+
+.left {
+    font-size: 1.5rem;
+}
+
+.firstsection {
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    margin: 50px 0;
+
+}
+
+.firstsection>div {
+    width: 25%;
+}
+
+.leftsection {
+    font-size: 2rem;
+    width: 50px 0;
+    margin: 70px 0;
+}
+
+.leftsection {
+    font-size: 2rem;
+}
+
+.leftsection .buttons {
+    padding: 15px 0;
+}
+
+
+.leftsection .btn {
+    padding: 6px;
+    background-color: #344e48bc;
+    color: white;
+    border-radius: 7px;
+}
+
+.rightsection {
+    border-radius: 50%;
+    width: 200px;
+    height: 300px;
+
+}
+
+.rightsection img {
+    width: 10px 0;
+    margin: 20px 0;
+}
+
+.purple {
+    color: #fab905;
+}
+
+#element {
+    color: #fab905;
+}
+
+/* About section */
+
+.section-title {
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    color: #d2d22e;
+    height: 50px;
+
+}
+
+
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading {
+    align-items: center;
+    justify-content: center;
+}
+
+.services h2 {
+    margin-bottom: 5rem;
+    color: #57e27a;
+}
+
+.services-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 0 2px;
+    gap: 5rem;
+}
+
+.button {
+    display: inline-block;
+    padding: 1rem 2rem;
+    border-radius: 10rem;
+    background-color: #23c0dcb1;
+    color: white;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+.button:hover {
+    color: #57e27a;
+}
+
+
+.services-container .services-box {
+    flex: 19rem;
+    background-color: #8ab19c2a;
+    padding: 1rem 2rem 2rem;
+    border-radius: 2rem;
+    text-align: center;
+    border: .2rem solid #caf0f8;
+    transition: .5s ease;
+}
+
+.services-container .services-box:hover {
+    border-color: rgba(67, 196, 149, 0.847);
+    background-color: rgba(215, 255, 192, 0.228);
+    transform: scale(1);
+}
+
+
+.services-container .services-box >a :hover {
+    border-color: palegreen;
+    transform: scale(1);
+}
+
+.button.btn {
+    text-align: center;
+    bottom: red;
+}
+
+.services-box .a {
+    background-color: #57e27a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.services-box .col h1, h2, h3, h4 {
+    color: #37d860e2;
+    text-align: center;
+}
+
+
+/* contect footer */
+
+
+.footerNav ul li a:hover{
+    opacity: 1;
+
+}
+
+.footerBottom {
+    background-color: rgba(0, 0, 0, 0.721);
+    padding: 20px;
+    text-align: center;
+}
+
+.footerBottom p{
+color: white;
+}
+
+.Designer {
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}
+
+
+
+.footerContainer {
+    background-color: #58815764;
+    width: 100%;
+    padding: 7px 30px 20px;
+}
+
+.socialIcons{
+    display: flex;
+    justify-content: center;   
+}
+
+.socialIcons a {
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.socialIcons a i{
+    font-size: 2rem;
+    color: black;
+    opacity: 0.9;
+}
+
+/* hover Efeect on social media icon */
+
+.socialIcons a:hover{
+    background-color: #57e27a;
+    transition: .5s;
+}
+
+.socialIcons a:hover i {
+    color: white;
+    transition: 0.5s;
+}
+
+.footerNav :hover {
+    color: rgba(0, 0, 0, 0.831);
+    transition: 0.5s;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerNav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.footerNav ul li a{
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3rem;
+    transition: 0.5s;
+    opacity: 0.7s;
+}
+
+
+
